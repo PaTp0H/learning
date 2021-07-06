@@ -3,10 +3,10 @@
 // Enter base: 20
 // Enter height: 10
 // The area of the triangle is 50
-// const base = prompt('Enter base:')
-// const height = prompt('Enter height:')
+const base = prompt('Enter base:')
+const height = prompt('Enter height:')
 
-// alert(`The area of the triangle is ${0.5 * base * height}`)
+alert(`The area of the triangle is ${0.5 * base * height}`)
 
 // Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 // Enter side a: 5
@@ -14,18 +14,18 @@
 // Enter side c: 3
 // The perimeter of the triangle is 12
 
-// const a = parseInt(prompt('Enter side a:'))
-// const b = parseInt(prompt('Enter side b:'))
-// const c = parseInt(prompt('Enter side c:'))
+const a = parseInt(prompt('Enter side a:'))
+const b = parseInt(prompt('Enter side b:'))
+const c = parseInt(prompt('Enter side c:'))
 
-// alert(`The perimeter of the triangle is ${a + b + c}`)
+alert(`The perimeter of the triangle is ${a + b + c}`)
 
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-// const heightP = parseInt(prompt('Enter height:'))
-// const widthP = parseInt(prompt('Enter width:'))
+const heightP = parseInt(prompt('Enter height:'))
+const widthP = parseInt(prompt('Enter width:'))
 
-// alert(`The area of the rectangle is ${heightP * widthP}`)
-// alert(`The perimeter of the rectangle is ${2 * (heightP * widthP)}`)
+alert(`The area of the rectangle is ${heightP * widthP}`)
+alert(`The perimeter of the rectangle is ${2 * (heightP * widthP)}`)
 
 // Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
@@ -62,36 +62,36 @@
 // Enter birth year: 2005
 // You are 15. You will be allowed to drive after 3 years.
 
-// const birthYear = parseInt(prompt('Enter birth year'))
-// const date = new Date();
+const birthYear = parseInt(prompt('Enter birth year'))
+const date = new Date();
 
-// const age = date.getFullYear() - birthYear;
+const age = date.getFullYear() - birthYear;
 
-// if(age >= 18) {
-//     alert(`You are ${age}. You are old enough to drive`)
-// }
-// else {
-//   alert(`You are ${age}. You will be allowed to drive after ${18 - age} years.`)  
-// }
+if(age >= 18) {
+    alert(`You are ${age}. You are old enough to drive`)
+}
+else {
+  alert(`You are ${age}. You will be allowed to drive after ${18 - age} years.`)  
+}
 
 
 // Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 // Enter number of yours you live: 100
 // You lived 3153600000 seconds.
 
-// const age = parseInt(prompt('Enter number of yours you live'))
+const age = parseInt(prompt('Enter number of yours you live'))
 
-// let date = new Date();
+let date = new Date();
 
-// let day = date.getDate();
-// let month = date.getMonth();
-// let year = date.getFullYear();
+let day = date.getDate();
+let month = date.getMonth();
+let year = date.getFullYear();
 
-// let sec = (day * 24 * 60 * 60) + (month * 30 * 24 * 60 * 60) + (year * 12 * 30 * 24 * 60 * 60)
+let sec = (day * 24 * 60 * 60) + (month * 30 * 24 * 60 * 60) + (year * 12 * 30 * 24 * 60 * 60)
 
-// sec = sec + (date.getHours() * 60) + date.getSeconds()
+sec = sec + (date.getHours() * 60) + date.getSeconds()
 
-// alert(`You lived ${sec} seconds`)
+alert(`You lived ${sec} seconds`)
 
 // Create a human readable time format using the Date time object
 // YYYY-MM-DD HH:mm
