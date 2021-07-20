@@ -718,7 +718,7 @@ for (const country of countries) {
         country[2].slice(0, 1).toUpperCase() +
         country[3].slice(0, 1).toUpperCase() +
         country.slice(1)
-    ); // This is easier with a for lopp, not for...of loop
+    );
   } else {
     reversedAndCapitalisedCountries.push(
       country.slice(0, 1).toUpperCase() + country.slice(1)
